@@ -12,5 +12,5 @@ chain:
       default: vcenter.ci.ibmc.devcluster.openshift.com-cidatacenter-cicluster vcenter.ci.ibmc.devcluster.openshift.com-cidatacenter-1-cicluster-1
       documentation: defines a space separated list of pools to sue for the test. each pool represents a failure domain.
   documentation: |-
-    Create an multi-subnets IPI cluster on vSphere for QE e2e tests.
+    Create an multi-subnets IPI cluster on vSphere for QE e2e tests. -test
     This chain is applicable on 4.14+.
