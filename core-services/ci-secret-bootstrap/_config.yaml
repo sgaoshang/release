@@ -5144,7 +5144,15 @@ secret_configs:
     namespace: ci
   - cluster_groups:
     - non_app_ci
+    name: cluster-secrets-nutanix-qe-2
+    namespace: ci
+  - cluster_groups:
+    - non_app_ci
     name: cluster-secrets-nutanix-qe-dis
+    namespace: ci
+  - cluster_groups:
+    - non_app_ci
+    name: cluster-secrets-nutanix-qe-dis-2
     namespace: ci
   - cluster_groups:
     - non_app_ci

@@ -276,7 +276,9 @@ CONFIG = {
     },
     'nutanix-quota-slice': {},
     'nutanix-qe-quota-slice': {},
+    'nutanix-qe-2-quota-slice': {},
     'nutanix-qe-dis-quota-slice': {},
+    'nutanix-qe-dis-2-quota-slice': {},
     'nutanix-qe-zone-quota-slice': {},
     'nutanix-qe-gpu-quota-slice': {},
     'nutanix-qe-flow-quota-slice': {},
@@ -555,7 +557,13 @@ for i in range(3):
     CONFIG['nutanix-qe-quota-slice']['nutanix-qe-segment-{0:0>2}'.format(i)] = 1
 
 for i in range(3):
+    CONFIG['nutanix-qe-2-quota-slice']['nutanix-qe-2-segment-{0:0>2}'.format(i)] = 1
+
+for i in range(3):
     CONFIG['nutanix-qe-dis-quota-slice']['nutanix-qe-dis-segment-{0:0>2}'.format(i)] = 1
+
+for i in range(3):
+    CONFIG['nutanix-qe-dis-2-quota-slice']['nutanix-qe-dis-2-segment-{0:0>2}'.format(i)] = 1
 
 for i in range(3):
     CONFIG['nutanix-qe-zone-quota-slice']['nutanix-qe-zone-segment-{0:0>2}'.format(i)] = 1
